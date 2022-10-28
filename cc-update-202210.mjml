@@ -1,0 +1,169 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section {
+      -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      }
+      .text-column-name {
+      display: inline-block;
+      width: 35%;
+      text-align: center;
+      }
+      .text-column-value {
+      margin-left: 5px;
+      }
+      .footer-link {
+      color: #888888
+      }
+      .button > table {
+      margin-top: 10px;
+      }
+      .button > table td {
+      width: 200px;
+      height: 40px;
+      }
+      .footer-info {
+      margin-top: 15px;
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body background-color="#f2f2f2" width="800px">
+    <mj-section full-width="full-width" background-color="#f2f2f2" padding-bottom="0" padding-top="10%">
+      <mj-column width="100%">
+        <mj-image width="80px" src="https://github.com/Turing-Chain/resources/blob/master/logo-new-turing@3x.png?raw=true" padding-bottom="0px"></mj-image>
+        <mj-text color="#979797" font-weight="bold" align="center" text-transform="uppercase" font-size="14px" letter-spacing="1px">
+          <br>
+          Turing Certs 圖靈證書
+          </br>
+          <span style="color: #979797; font-weight: normal">-</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding-top="0" padding-bottom="0" background-color="#f2f2f2" padding-left="20px" padding-right="20px">
+      <mj-section css-class="body-section" background-color="#ffffff" padding-left="15px" padding-right="15px" border-radius="5px">
+        <mj-column width="100%">
+          <mj-text color="#c38b47" font-weight="bold" font-size="20px" align="center">
+            圖靈證書 新功能上線！<br>Product Updates
+
+          </mj-text>
+          <mj-divider border-color="#DFE3E8" border-width="1px" width="60%" padding-bottom="20px" />
+        </mj-column>
+        <mj-group width="80%" vertical-align="middle">
+          <mj-column width="100%" padding-bottom="20px">
+            <mj-text align="center">
+              Dear {{Name}},
+            </mj-text>
+            <mj-text align="left" font-size="14px" color="#444">
+
+              圖靈證書目前服務的政府, 企業, 公協會已來到 100 餘間，感謝您對我們的支持以及寶貴回饋。為了讓您有更完善的使用體驗，近期我們又上架更多方便功能：從文件打包上鏈，到信件狀態可視化，以及更完善的下載命名與收證者管理，希望讓發放證書成為簡單任務。</mj-text>
+
+            <mj-text align="left" font-size="14px" color="#444">
+              Turing Certs is now serving more than 100 governments and enterprises. We appreciate your valuable feedback and support. Wish you enjoy our new batches of features!
+            </mj-text>
+
+          </mj-column>
+        </mj-group>
+        <mj-section>
+          <mj-column width="100%">
+            <mj-divider border-color="#DFE3E8" border-width="1px" width="90%" padding-bottom="25px" />
+            <mj-text font-weight="bold" font-size="18px" align="center">
+              多頁文件 PDF 上鏈功能<br>Multi-pages PDF Supported
+            </mj-text>
+            <mj-image src="https://github.com/Turing-Chain/resources/blob/master/update-202210-1.png?raw=true" target="_blank" width="600px"></mj-image>
+            <mj-text align="center">
+              無需從 0 設計，一鍵上傳多件檔案，即刻為您上鏈<br>註：為防止跑版問題，檔上傳案類型限定為 PDF 格式。<br>（升級此功能請聯絡客服啟用）<br><a href="https://taiwan-e-portfolio-alliance.gitbook.io/turingcerts-issuer-manuel-zh/issue_via_PDF/feature" style="color:#c38b47">➡️ 查看教學</a>
+
+            </mj-text>
+            <mj-text align="center">
+              No need to start designing from zero. Just upload a batch of files to be certified on-chain immediately.
+              P.S. PDF allowed only. Preventing formatting trouble.<br>(Upgradable Feature: Please contact customer service for activation.) <br><a href="https://taiwan-e-portfolio-alliance.gitbook.io/turing-certs-issuer-manuel-en/4-bu-zhou-fa-zheng-1/feature-description" style="color:#c38b47">➡️ How it works</a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-section>
+          <mj-column width="100%">
+            <mj-text font-weight="bold" font-size="18px" align="center">
+              證書通知信發送狀態可視化<br>Email Status Visualization
+            </mj-text>
+            <mj-image src="https://github.com/Turing-Chain/resources/blob/master/update-202210-2.png?raw=true" target="_blank" width="600px"></mj-image>
+            <mj-text align="center">
+              提供您開信、點擊、退信等明細，協助您追蹤狀態！<br><a href="https://taiwan-e-portfolio-alliance.gitbook.io/turingcerts-issuer-manuel-zh/issue_via_PDF/issueance_status#cha-kan-tong-zhi-xin-ji-song-zhuang-tai" style="color:#c38b47">➡️ 查看教學</a>
+
+            </mj-text>
+            <mj-text align="center">
+              Let you know whether the user have opened, clicked, or failed to receive the notification email. Better tracking! <br><a href="https://taiwan-e-portfolio-alliance.gitbook.io/turing-certs-issuer-manuel-en/4-bu-zhou-fa-zheng-1/check-the-issuance-status#track-email-delivery-status" style="color:#c38b47">➡️ How it works</a>
+            </mj-text>
+
+          </mj-column>
+        </mj-section>
+        <mj-group width="90%" vertical-align="middle">
+          <mj-column width="100%" padding-top="20px">
+            <mj-text align="center" font-weight="bold" font-size="18px">更多下載功能<br>Extra Features for Downloading and Re-Naming </mj-text>
+          </mj-column>
+          <mj-section>
+            <mj-column width="50%">
+              <mj-image src="https://github.com/Turing-Chain/resources/blob/master/update-202210-3.png?raw=true" target="_blank" width="380px"></mj-image>
+              <mj-text>您現可自訂下載證書之檔名，進行更多操作<br><a href="https://taiwan-e-portfolio-alliance.gitbook.io/turingcerts-issuer-manuel-zh/geng-duo-gong-neng/xia-zai-zheng-shu-dang-an" style="color:#c38b47">➡️ 查看教學</a></mj-text>
+
+              <mj-text>You can now customize the file name of the downloaded certificate for easier life.<br>
+                <a href="https://taiwan-e-portfolio-alliance.gitbook.io/turing-certs-issuer-manuel-en/qi-ta-cao-zuo/xia-zai-zheng-shu" style="color:#c38b47">➡️ How it works</a>
+              </mj-text>
+            </mj-column>
+            <mj-column width="50%">
+              <mj-image src="https://github.com/Turing-Chain/resources/blob/master/update-202210-4.png?raw=true" target="_blank" width="380px"></mj-image>
+              <mj-text>您現可下載特定收證者單張 pdf 數位副本，進行更多應用<br><a href="https://taiwan-e-portfolio-alliance.gitbook.io/turingcerts-issuer-manuel-zh/geng-duo-gong-neng/download_files#xia-zai-chan-zhang-zheng-shu" style="color:#c38b47">➡️ 查看教學</a></mj-text>
+
+              <mj-text>You can now download specific users' certificates as PDF file at wish.<br>
+                <a href="https://taiwan-e-portfolio-alliance.gitbook.io/turing-certs-issuer-manuel-en/qi-ta-cao-zuo/xia-zai-zheng-shu#download-single-file" style="color:#c38b47">➡️ How it works</a>
+              </mj-text>
+            </mj-column>
+          </mj-section>
+        </mj-group>
+        <mj-group width="90%" vertical-align="middle">
+          <mj-column width="100%" padding-top="20px">
+            <mj-text align="center" font-weight="bold" font-size="18px">新增收證者管理<br>Receiver Management </mj-text>
+          </mj-column>
+          <mj-section>
+            <mj-column width="328px">
+              <mj-image src="https://github.com/Turing-Chain/resources/blob/master/update-202210-5.png?raw=true" target="_blank" width="380px"></mj-image>
+            </mj-column>
+            <mj-column>
+              <mj-text>開放搜尋特定收證者資料，查詢完整收證歷程！<br><a href="https://taiwan-e-portfolio-alliance.gitbook.io/turingcerts-issuer-manuel-zh/geng-duo-gong-neng/shou-zheng-zhe-guan-li" style="color:#c38b47">➡️ 查看教學</a></mj-text>
+              <mj-text>You can now search for specific recipient and check their complete certificate journey. </br><a href="https://taiwan-e-portfolio-alliance.gitbook.io/turing-certs-issuer-manuel-en/qi-ta-cao-zuo/recipient-management" style="color:#c38b47">➡️ How it works</a></mj-text>
+            </mj-column>
+          </mj-section>
+        </mj-group>
+        <mj-column width="100%" padding-top="20px">
+          <mj-button background-color="#c38b47" css-class="button" href="https://global.turingcerts.com/login?role=cc" padding="10px" font-size="16px">前往體驗 Try it out</mj-button>
+          <mj-text align="center" padding-bottom="30px"><a href="https://taiwan-e-portfolio-alliance.gitbook.io/turingcerts-issuer-manuel-zh/" style="color:#c38b47">查看使用手冊 User Guide</a></mj-text>
+
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+    <mj-wrapper full-width="full-width" css-class="footer-info" background-color="#f2f2f2">
+
+      <mj-group>
+        <mj-column width="100%" padding-right="0">
+          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
+            &copy; Turing Chain Limited, All Rights Reserved.
+          </mj-text>
+          <mj-text color="#445566" font-size="11px" align="center" line-height="16px" font-weight="bold">
+            <a class="footer-link" href="https://certs.turingchain.tech">About us</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a class="footer-link" href="https://certs.turingchain.tech/privacy-policy">Privacy</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
