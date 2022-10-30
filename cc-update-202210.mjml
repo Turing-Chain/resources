@@ -79,7 +79,7 @@
             </mj-text>
             <mj-image src="https://github.com/Turing-Chain/resources/blob/master/update-202210-1.png?raw=true" target="_blank" width="600px"></mj-image>
             <mj-text align="center">
-              無需從 0 設計，一鍵上傳多件檔案，即刻為您上鏈<br>註：為防止跑版問題，檔上傳案類型限定為 PDF 格式。<br>（升級此功能請聯絡客服啟用）<br><a href="https://taiwan-e-portfolio-alliance.gitbook.io/turingcerts-issuer-manuel-zh/issue_via_PDF/feature" style="color:#c38b47">➡️ 查看教學</a>
+              無需從 0 設計，一鍵上傳多件檔案，即刻為您上鏈<br>註：為防止跑版問題，上傳檔案類型限定為 PDF 格式。<br>（升級此功能請聯絡客服啟用）<br><a href="https://taiwan-e-portfolio-alliance.gitbook.io/turingcerts-issuer-manuel-zh/issue_via_PDF/feature" style="color:#c38b47">➡️ 查看教學</a>
 
             </mj-text>
             <mj-text align="center">
@@ -111,7 +111,7 @@
           <mj-section>
             <mj-column width="50%">
               <mj-image src="https://github.com/Turing-Chain/resources/blob/master/update-202210-3.png?raw=true" target="_blank" width="380px"></mj-image>
-              <mj-text>您現可自訂下載證書之檔名，進行更多操作<br><a href="https://taiwan-e-portfolio-alliance.gitbook.io/turingcerts-issuer-manuel-zh/geng-duo-gong-neng/xia-zai-zheng-shu-dang-an" style="color:#c38b47">➡️ 查看教學</a></mj-text>
+              <mj-text>您現可自訂下載證書之檔名，進行更多操作。<br><a href="https://taiwan-e-portfolio-alliance.gitbook.io/turingcerts-issuer-manuel-zh/geng-duo-gong-neng/xia-zai-zheng-shu-dang-an" style="color:#c38b47">➡️ 查看教學</a></mj-text>
 
               <mj-text>You can now customize the file name of the downloaded certificate for easier life.<br>
                 <a href="https://taiwan-e-portfolio-alliance.gitbook.io/turing-certs-issuer-manuel-en/qi-ta-cao-zuo/xia-zai-zheng-shu" style="color:#c38b47">➡️ How it works</a>
@@ -119,7 +119,7 @@
             </mj-column>
             <mj-column width="50%">
               <mj-image src="https://github.com/Turing-Chain/resources/blob/master/update-202210-4.png?raw=true" target="_blank" width="380px"></mj-image>
-              <mj-text>您現可下載特定收證者單張 pdf 數位副本，進行更多應用<br><a href="https://taiwan-e-portfolio-alliance.gitbook.io/turingcerts-issuer-manuel-zh/geng-duo-gong-neng/download_files#xia-zai-chan-zhang-zheng-shu" style="color:#c38b47">➡️ 查看教學</a></mj-text>
+              <mj-text>您現可下載特定收證者單張 pdf 數位副本，進行更多應用。<br><a href="https://taiwan-e-portfolio-alliance.gitbook.io/turingcerts-issuer-manuel-zh/geng-duo-gong-neng/download_files#xia-zai-chan-zhang-zheng-shu" style="color:#c38b47">➡️ 查看教學</a></mj-text>
 
               <mj-text>You can now download specific users' certificates as PDF file at wish.<br>
                 <a href="https://taiwan-e-portfolio-alliance.gitbook.io/turing-certs-issuer-manuel-en/qi-ta-cao-zuo/xia-zai-zheng-shu#download-single-file" style="color:#c38b47">➡️ How it works</a>
